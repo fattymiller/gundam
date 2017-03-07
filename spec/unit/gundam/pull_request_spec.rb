@@ -1,10 +1,11 @@
+# frozen_string_literal: true
 require 'spec_helper'
 
 RSpec.describe PullRequest do
   let(:params) do
     {
       action: 'create',
-      description: 'My description',
+      body: 'My description',
       id: 1234,
       title: 'My Pull Request',
       url: 'https://github.com/my_org/my_repo/pulls/1'
