@@ -1,0 +1,4 @@
+project=gundam
+architecture=container
+test=rspec
+template=haml
