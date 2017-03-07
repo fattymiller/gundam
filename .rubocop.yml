@@ -1,0 +1,11 @@
+AllCops:
+  TargetRubyVersion: 2.4
+  Exclude:
+    - apps/api/application.rb
+
+Style/Documentation:
+  Enabled: false
+
+Lint/HandleExceptions:
+  Exclude:
+    - 'Rakefile'

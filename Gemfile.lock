@@ -42,6 +42,8 @@ GEM
       dry-equalizer (~> 0.2)
       dry-logic (~> 0.4, >= 0.4.0)
       dry-types (~> 0.9, >= 0.9.0)
+    haml (4.0.7)
+      tilt
     hanami (1.0.0.beta2)
       bundler (~> 1.13)
       concurrent-ruby (~> 1.0)
@@ -136,6 +138,7 @@ DEPENDENCIES
   capybara
   dotenv (~> 2.0)
   dry-initializer
+  haml
   hanami (= 1.0.0.beta2)
   rake
   rspec
