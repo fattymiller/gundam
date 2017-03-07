@@ -1,4 +1,13 @@
 # frozen_string_literal: true
+
+require 'simplecov'
+
+SimpleCov.start do
+  # Remove spec files from the coverage report for a more accurate
+  # coverage percentage
+  add_filter '/spec/'
+end
+
 # Require this file for unit tests
 ENV['HANAMI_ENV'] ||= 'test'
 
