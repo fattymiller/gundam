@@ -2,6 +2,6 @@
 
 ## Gundam
 
-This bot has as its primary mission ~~win the Gundam Fight~~ identify Jira Issue identifiers in a github pull request and comment on that pull request the links for the relevant Jira Issues, thus simplifying navigation between Pull Request and its equivalent Jira Issue.
+This bot has as its primary mission ~~win the Gundam Fight~~ identify Jira Issue identifiers in a GitHub Pull Request and adds links to any Jira issues found to the comments on that Pull Request, and in turn simplifying the navigation between Pull Request and relevant Jira Issue.
 
-Jira integration with Github works one way, with Jira being notified of Pull Requests that mention a Jira Issue in its title, or description, however Github does not link the Pull Request to the Jira issue.
+Currently, Jira integration works one-way with Github. Where Jira is notified of new Pull Requests that mention the issue in its title and/or description and are linked back to GitHub, but no links are made in the reverse direction.
